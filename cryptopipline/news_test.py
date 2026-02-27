@@ -11,8 +11,8 @@ conf = {
     'bootstrap.servers': 'pkc-921jm.us-east-2.aws.confluent.cloud:9092',
     'security.protocol': 'SASL_SSL',
     'sasl.mechanisms': 'PLAIN',
-    'sasl.username': 'MWFTUSHV2IGWKFLI',
-    'sasl.password': 'cfltfv6EbMjSYbxyJTgAnJgCYggtoKuI7SC0aMkyXtlqgmwPqAOlGkMBvzqOyWzg'
+    'sasl.username': 'VKJVOV3DSM5P66ZV',
+    'sasl.password': 'cfltWr+sHC2rn8L5DdEo004npOSTOjMt7VB/0zdV7WsSUKOfNp0z0hY5qTUkJh2Q'
 }
 
 producer = Producer(conf)
@@ -26,7 +26,7 @@ def delivery_report(err, msg):
 # News API
 # ======================
 
-NEWS_API_KEY = "9f37441490e54e06ba597fd2ba8a4bfb"
+NEWS_API_KEY = "187890d974a24701b4353c624a27a797"
 
 def fetch_news():
     url = "https://newsapi.org/v2/everything"
