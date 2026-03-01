@@ -1,0 +1,7 @@
+websocket-client
+requests
+pandas
+confluent-kafka
+apache-airflow-providers-apache-kafka
+connexion[swagger-ui]
+confluent-kafka[avro]
