@@ -1,0 +1,7 @@
+[2026-02-28T01:30:01.375+0000] {processor.py:161} INFO - Started process (PID=980) to work on /opt/airflow/dags/fred_dag.py
+[2026-02-28T01:30:01.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fred_dag.py for tasks to queue
+[2026-02-28T01:30:01.382+0000] {logging_mixin.py:188} INFO - [2026-02-28T01:30:01.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/fred_dag.py
+[2026-02-28T01:30:01.447+0000] {processor.py:840} INFO - DAG(s) 'fred_dag' retrieved from /opt/airflow/dags/fred_dag.py
+[2026-02-28T01:30:01.592+0000] {logging_mixin.py:188} INFO - [2026-02-28T01:30:01.591+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-28T01:30:01.691+0000] {logging_mixin.py:188} INFO - [2026-02-28T01:30:01.690+0000] {dag.py:3823} INFO - Setting next_dagrun for fred_dag to 2026-02-01 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-28T01:30:01.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fred_dag.py took 0.631 seconds
